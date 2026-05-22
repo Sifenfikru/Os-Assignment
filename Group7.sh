@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Function to validate Ethiopian phone numbers
-# Accepts:
-# +251912345678
-# 0912345678
 
 validate_number() {
     if [[ $1 =~ ^\+251[0-9]{9}$ || $1 =~ ^09[0-9]{8}$ ]]; then
